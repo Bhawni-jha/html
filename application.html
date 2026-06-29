@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+     <p>Please fill in your details to apply for this job.</p>
+    <form>
+        <fieldset>
+       
+            <legend>Personal Information</legend>
+            <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="Enter Your Name" required>
+        <br><br>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Enter Email" required>
+        <br><br>
+        <label>Gender</label>
+        <br><br>
+        <input id="female" type="radio" name="gender">
+        <label for="female">Female</label>
+         <input id="male" type="radio" name="gender">
+         <label for="male">Male</label>
+          <input id="others" type="radio" name="gender">
+          <label for="others">Others</label>
+        <br><br>
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="tel" name="phone" placeholder="Enter Phone Number" required>
+        <br><br>
+        <label for="bday">Date Of Birth</label>
+        <input id="bday" type="date" name="bday" required>
+        <br><br>
+        <label for="add">Address</label>
+        <br>
+        <textarea id="add" name="add" rows="4" cols="30"></textarea>
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Job Details</legend>
+            <label for="position">Position Applying for:</label>
+            <select id="position" name="position">
+                <option> Web Developer</option>
+                <option> Frontend Developer</option>
+                <option> Backend Developer</option>
+                <option> Fullstack Developer</option>
+                <option> Software Engineer</option>
+            </select>
+            <br><br>
+            <label for="skills">Skills : </label>
+            <input id="html" type="checkbox">
+            <label for="html">HTML</label>
+            <input id="css" type="checkbox">
+            <label for="css">CSS</label>
+            <input id="node" type="checkbox">
+            <label for="node">Node.Js</label>
+            <input id="mongo" type="checkbox">
+            <label for="mongo">Mongodb</label>
+            <input id="react" type="checkbox">
+            <label for="react">React</label>
+            <br><br>
+            <label>Experience : </label>
+            <input type="radio" id="fresher" name="Experience">
+            <label for="fresher"> Fresher</label>
+            <input type="radio" id="exp1" name="Experience">
+            <label for="exp1"> 1-2 years</label>
+            <input type="radio" id="exp" name="Experience">
+            <label for="exp"> 3-5 years</label>
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+
+            <legend>Resume uploads</legend>
+            <label for="resume">Upload Resume</label>
+            <input id="resume" type="file">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>About Yourself</legend>
+            
+            <label for="about">Tell us about yourself?</label>
+            <br><br>
+            <textarea id="about" cols="30" rows="4"></textarea>
+
+        </fieldset>
+        <br><br>
+        <input type="submit" value="apply">
+        
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
