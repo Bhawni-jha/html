@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+         <a href="report.html">Grade</a>
+        <a href="profile.html">Profile</a>
+        <a href="course.html">Course</a>
+    </nav>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Enter Your Name" required>
+                <br><br>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Enter Email" required>
+                <br><br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Feedback Details</legend>
+                <label for="course">Course</label>
+                <select id="course" name="course">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>Java Script</option>
+                    <option>React</option>
+                    <option>Backend</option>
+                </select>
+                <br><br>
+                <label>Rating: </label>
+                <input type="radio" id="rating" name="rate">
+                <label for="rate"> poor</label>
+                <input type="radio" id="rating2" name="rate">
+                <label for="rate">good </label>
+                <input type="radio" id="rating3" name="rate">
+                <label for="rate"> best</label>
+                <br><br>
+                <label for="feedback"><strong>Suggestions</strong></label>
+                <br><br>
+                <textarea id="feedback" cols="30" rows="4" placeholder="write any Suggestions"></textarea>
+                <br><br>
+                <input id="consent" type="checkbox" name="consent" required> 
+                <label for="consent">I agree to submit my feedback</label>
+
+                <br><br>
+
+                <input id="button" type="submit" value="Submit">
+
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+</html>
