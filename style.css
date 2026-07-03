@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+body{
+    background-color:#f4f6f9;
+    padding:20px;
+    line-height:1.6;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+main{
+    width:80%;
+    margin:auto;
+}
+
+section{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.navbar {
+    background-color: rgb(40, 40, 37);
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.nav-button {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+    
+    
+}
+
+p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2,h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 50%;
+
+}
+ul{
+    text-align: center;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-left: 25px;
+    
+    
+}
+li{
+    margin-bottom: 5px;
+    
+}
+footer{
+    background-color: rgb(40, 40, 37);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form{
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+}
+fieldset{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10px;
+}
+label{
+
+    margin-bottom: 8px;
+    font-weight: bold;
+
+}
+#button{
+    background-color: rgb(40, 40, 37);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: rgb(70, 70, 67);
+    cursor: pointer;
+}
+.para{
+    background-color:white;
+    padding:15px;
+    margin-bottom:15px;
+    border-left:5px solid #0b0b0b;
+    border-radius:8px;
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color: rgb(40, 40, 37);
+    color: white;
+}
+tr:nth-child(odd){
+    background-color:#f2f2f2;
+}
+caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
