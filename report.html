@@ -7,18 +7,50 @@
     <title>student report card</title>
 </head>
 <body>
+     <header>
+        <h1>Student Portal</h1>
+    
     <nav class="navbar">
-        <a class="nav-button" href="home.html">Home</a>
-        <a class="nav-button" href="profile.html">Profile</a>
-        <a class="nav-button" href="course.html">Course</a>
-        <a class="nav-button" href="feedback.html">Feedback</a>
+        <ul>
+        <li><a class="nav-button" href="home.html">Home</a></li>
+        <li><a class="nav-button" href="profile.html">Profile</a></li>
+        <li><a class="nav-button" href="report.html">Grade</a></li>
+        <li><a class="nav-button" href="course.html">Course</a></li>
+        <li><a class="nav-button" href="feedback.html">Feedback</a></li>
+        <li><a  class="nav-button" href="contact.html">Contact</a></li>
+        </ul>
+
     </nav>
+    </header>
+    <main>
+
     <div>
     <h1>Valley International School</h1>
     </div>
     <div>
         <table>
+
             <caption><strong>Student Report Card</strong></caption>
+            <thead>
+                <tr>
+                    <th colspan="4"><strong>Student Information</strong></th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Roll Number</th>
+                    <th>Session</th>
+                </tr>
+            </thead>
+
+            <tbody> 
+                <tr>
+                    <td>Bhawni</td>
+                    <td>10th</td>
+                    <td>17</td>
+                    <td>2025-2026</td>
+                </tr>
+            
             <tr>
                 <th>Subject</th>
                 <th>Max Marks</th>
@@ -60,13 +92,23 @@
                   <td>A</td>
 
             </tr>
-        </table>
+        </tbody>
+       
+   
+        <tfoot>
+            <tr>
+                <td colspan="4"><strong>Total Marks</strong></td>
+                <td>424</td>
+            </tr>
+            <tr>    
+                <td colspan="4"><strong>Percentage</strong></td>
+                <td>84.8%</td>
+            </tr>
+        </tfoot>
+         </table>
+        
 
     </div>
-
-    <p class="para"><strong>Total Marks:</strong> 424 </p>
-
-    <p class="para"><strong>Percentage:</strong> 84.8%</p>
 
   
     <p class="para"><strong>Teacher's Remark:</strong>
